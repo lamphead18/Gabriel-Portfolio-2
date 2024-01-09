@@ -1,5 +1,4 @@
 import homePageImg from "../assets/home-page.svg";
-import homePageIllustation from "../assets/hero-illustration.svg";
 import downloadIcon from "../assets/download-btn-icon.svg";
 
 import { Button } from "../components";
@@ -31,17 +30,18 @@ const Hero = () => {
             Gabriel Franco Pigozzo
             <br />
             <span className="text-secondary">
-              <Typewriter words={["FullStack", "Web", "Mobile"]} 
-              cursor
-              cursorStyle="_"
-              typeSpeed={200}
-              deleteSpeed={150}
-              loop
+              <Typewriter words={["FullStack", "Web", "Mobile"]}
+                cursor
+                cursorStyle="_"
+                typeSpeed={200}
+                deleteSpeed={150}
+                loop
               />
             </span>
           </h1>
           <div className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start">
-            <Button>Hire</Button>
+            <Button secondary>Hire</Button>
+            <Button icon={downloadIcon}>Download CV</Button>
           </div>
         </div>
       </div>
