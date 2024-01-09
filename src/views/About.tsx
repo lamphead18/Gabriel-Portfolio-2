@@ -23,15 +23,15 @@ const About = () => {
       >
         <div className="flex-1 flex flex-col gap-4">
           <h2 className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] font-bold text-textPrimary">
-            About <span className="text-secondary">me</span>
+            Sobre <span className="text-secondary">mim</span>
           </h2>
           <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-            My name is Gabriel Franco Pigozzo, I am 21 years old, and I am an enthusiastic Full Stack Web and Mobile developer.
-            I have a solid background in programming, with a focus on technologies such as Javascript,
-            React, HTML, CSS, Node, Python, React-Native, Django, and SQL. In addition to technical skills,
-            I master debugging methods, task organization, adaptability, problem-solving,
-            RESTful APIs, automated testing, software architecture, UX, agile methodologies, HTTP requests, and I have effective communication and proactivity.
-            My approach to software development goes beyond lines of code, incorporating a deep understanding of architectures and best practices.
+            Meu nome é Gabriel Franco Pigozzo, tenho 21 anos, sou um entusiasmado desenvolvedor Full Stack Web e Mobile.
+            Possuo uma sólida formação em programação, com foco em tecnologias como Javascript, React, HTML, CSS, Node, Python, React-Native, Django e SQL.
+            Além das habilidades técnicas, domino métodos de debug, organização de tarefas, adaptabilidade, resolução de problemas,
+            RESTful APIs, testes automatizados, arquitetura de software, UX, metodologias ágeis, requisições HTTP e tenho uma comunicação
+            eficaz e proativa. Minha abordagem para o desenvolvimento de software vai além das linhas de código,
+            incorporando um entendimento aprofundado de arquiteturas e melhores práticas.
           </p>
           <div className="flex items-center justify-center xl:justify-start gap-6">
             <SocialMediaIcon imgSrc="linkedin" title="LinkedIn" />

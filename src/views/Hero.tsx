@@ -40,8 +40,8 @@ const Hero = () => {
             </span>
           </h1>
           <div className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start">
-            <Button secondary>Hire</Button>
-            <Button icon={downloadIcon}>Download CV</Button>
+            <Button secondary>Contratar</Button>
+            <Button icon={downloadIcon}>Baixar CV</Button>
           </div>
         </div>
       </div>

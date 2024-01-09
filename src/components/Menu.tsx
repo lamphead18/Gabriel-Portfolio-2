@@ -13,14 +13,14 @@ const Menu = () => {
     sm:rounded-full py-3 px-6 flex items-center justify-around sm:justify-center gap-12 z-30"
     >
       <Link to="home" smooth>
-        <Tooltip title="Home" placeholder="top" arrow>
+        <Tooltip title="Início" placeholder="top" arrow>
           <IconButton className="group">
             <HomeIcon className="text-white group-hover:text-secondary" />
           </IconButton>
         </Tooltip>
       </Link>
       <Link to="about" smooth>
-        <Tooltip title="About" placeholder="top" arrow>
+        <Tooltip title="Sobre" placeholder="top" arrow>
           <IconButton className="group">
             <PersonIcon className="text-white group-hover:text-secondary" />
           </IconButton>
