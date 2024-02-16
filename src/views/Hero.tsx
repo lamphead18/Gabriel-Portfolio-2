@@ -7,19 +7,13 @@ import { Button } from "../components";
 
 import { Typewriter } from "react-simple-typewriter";
 
-import { motion } from "framer-motion";
-
-import { transition } from "../utils/transition";
-import { fadeIn, scale } from "../utils/variants";
-import { BurstMode } from "@mui/icons-material";
-
 const Hero = () => {
   const [downloadLink, setDownloadLink] = useState("");
 
   useEffect(() => {
     const generateDownloadLink = () => {
       const filePath =
-        "https://drive.google.com/file/d/1HvaJIoDHts65BCyiJQAJVqb7FOFD0aiE/view?usp=sharing";
+        "https://drive.google.com/file/d/16qymUwuB9DjE9omJKEo9F83BvikCV8PV/view";
       const downloadUrl = process.env.PUBLIC_URL + filePath;
       setDownloadLink(downloadUrl);
     };
@@ -61,14 +55,13 @@ const Hero = () => {
             </span>
           </h1>
           <div className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start">
-            {/* <Button secondary>Contratar</Button> */}
             <Button
               icon={downloadIcon}
               onClick={() => {
                 if (downloadLink) {
                   const link = document.createElement("a");
                   link.href = downloadLink;
-                  link.download = "CV_Gabriel_Franco_Pigozzo.pdf";
+                  link.download = "Curriculo_Gabriel_Franco_Pigozzo.pdf";
                   link.target = "_blank";
                   link.rel = "noopener noreferrer";
                   link.click();

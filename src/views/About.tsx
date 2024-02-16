@@ -2,11 +2,6 @@ import aboutPageImg from "../assets/about-me-page.svg";
 
 import { SocialMediaIcon, Reveal } from "../components";
 
-import { motion } from "framer-motion";
-
-import { fadeIn, scale } from "../utils/variants";
-import { transition } from "../utils/transition";
-
 const About = () => {
   const linkedinUrl = "https://www.linkedin.com/in/gabriel-f-956163131/";
   const githubUrl = "https://github.com/lamphead18";
